@@ -1,0 +1,17 @@
+{
+    "tags": {
+      "allowUnknownTags": true,
+      "dictionaries": ["jsdoc"]
+    },
+    "source": {
+      "include": ["src"],
+      "includePattern": ".+\\.(js|jsx|ts|tsx)$",
+      "excludePattern": "(node_modules|dist)"
+    },
+    "opts": {
+      "destination": "./docs",
+      "recurse": true,
+      "readme": "./README.md",
+      "template": "default"
+    }
+}

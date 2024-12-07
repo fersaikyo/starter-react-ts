@@ -6,15 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint src -c ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "docs": "jsdoc -c jsdoc.json"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"  
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.2",
@@ -39,6 +40,7 @@
     "eslint-plugin-react-refresh": "^0.4.14",
     "eslint-plugin-storybook": "^0.11.1",
     "globals": "^15.12.0",
+    "jsdoc": "^4.0.4",
     "prettier": "^3.4.2",
     "storybook": "^8.4.7",
     "typescript": "~5.6.2",

@@ -19,6 +19,7 @@ Perfect for kickstarting modern and productive projects!
 - `npm run format`: Formats the codebase using Prettier.
 - `npm run build`: Builds the project for production.
 - `npm run build-storybook`: Builds the Storybook documentation for production.
+- `npm run docs`: Generates project documentation using JSDoc and saves it in the docs folder.
 
 ---
 
