@@ -1,3 +1,7 @@
+**starter-react-ts v1.0.0**
+
+***
+
 # Starter React + TypeScript + Vite
 
 This project is a minimalist starting point for building React applications with TypeScript, optimized for modern, scalable development. It includes pre-configured tools to ensure clean code and an efficient developer experience.

@@ -6,7 +6,7 @@
     "source": {
       "include": ["src"],
       "includePattern": ".+\\.(js|jsx|ts|tsx)$",
-      "excludePattern": "(node_modules|dist)"
+      "excludePattern": "(node_modules|dist|./src/stories|.+\\.stories\\.tsx$)"
     },
     "opts": {
       "destination": "./docs",
