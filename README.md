@@ -7,7 +7,7 @@ This project is a minimalist starting point for building React applications with
 - **React + TypeScript**: Strongly-typed components for scalable projects.
 - **Prettier and ESLint**: Automated code formatting and linting.
 - **Storybook**: Isolated component development and interactive documentation.
-- **JSDocs**: Auto-generated documentation from code comments.
+- **TypeDoc**: Auto-generated documentation from code comments.
 - **Styled Components**: Utilizes tagged template literals to style React components. Allows for scoped, dynamic, and reusable styles directly within JavaScript, enhancing component-based styling.
 
 Perfect for kickstarting modern and productive projects!
@@ -20,7 +20,7 @@ Perfect for kickstarting modern and productive projects!
 - `npm run format`: Formats the codebase using Prettier.
 - `npm run build`: Builds the project for production.
 - `npm run build-storybook`: Builds the Storybook documentation for production.
-- `npm run docs`: Generates project documentation using JSDoc and saves it in the docs folder.
+- `npm run docs`: Generates project documentation using TypeDoc and saves it in the docs folder.
 
 ---
 
